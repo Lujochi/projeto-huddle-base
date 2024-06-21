@@ -1,0 +1,91 @@
+body {
+  background: url("../images/bg-desktop.svg") no-repeat;
+  background-size: contain;
+  background-color: #674baf;
+  height: 100vh;
+  color: #fff;
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 60px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 60px;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 520px;
+}
+
+.register-container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.register-container p {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 24px;
+}
+
+.register-container .button {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  align-self: start;
+  background-color: #fff;
+  padding: 15px 65px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+  transition: 0.2s;
+}
+
+.register-container .button:hover {
+  color: #fff;
+  background-color: #e880e8;
+}
+
+.footer {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
+
+.footer ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer ul li a i {
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer ul li a:hover {
+  color: #ff52c1;
+}
+
+.footer ul li a:hover i {
+  border: 2px solid #ff52c1;
+}
